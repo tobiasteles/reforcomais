@@ -1,0 +1,98 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    height: 100vh;
+  }
+  
+  .interface {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #A4D65E;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .btn-contato button:hover {
+    box-shadow: 0px 0px 8px #a4d65e80;
+    transform: scale(1.05);
+  }
+  
+  h2 span {
+    color: #A4D65E;
+  }
+  
+  .titulo {
+    color: #FFEA00;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  button:hover {
+    box-shadow: 0px 0px 8px #a4d65e80;
+    transform: scale(1.05);
+  }
+  
+  .btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #A4D65E;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 0.2s;
+  }
+  
+  /* ESTILO DO CABEÇALHO */
+  
+  header {
+    padding: 40px 4%;
+    padding-top: 10px;
+  }
+  
+  header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header a {
+    color: #333333;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+  }
+  
+  header a:hover {
+    color: #33333346;
+    transform: scale(1.05);
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+  }
