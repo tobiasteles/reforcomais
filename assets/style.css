@@ -280,7 +280,10 @@ section .topo-do-site .flex {
 }
 
 .pacotes .flex {
+  display: flex;
+  flex-wrap: wrap;
   gap: 40px;
+  justify-content: space-between;
 }
 .pacotes .pacote-box {
   color: #a4d65e;
@@ -288,6 +291,8 @@ section .topo-do-site .flex {
   margin-top: 45px;
   border-radius: 20px;
   transition: 0.2s;
+  width: calc(25%-40px);
+  box-sizing: border-box;
 }
 
 .pacotes .pacote-box:hover {
