@@ -24,7 +24,7 @@ body {
   padding: 10px 40px;
   font-size: 18px;
   font-weight: 600;
-  background-color: #a4d65e;
+  background-color: #ffea00;
   border: 0;
   border-radius: 30px;
   cursor: pointer;
@@ -32,7 +32,7 @@ body {
 }
 
 .btn-contato button:hover {
-  box-shadow: 0px 0px 8px #a4d65e80;
+  box-shadow: 0px 0px 8px #ffea0075;
   transform: scale(1.05);
 }
 
@@ -165,8 +165,9 @@ header nav.menu-desktop ul li {
 
 /* ESTILO DO TOPO DO SITE */
 
-section .topo-do-site {
+section.topo-do-site {
   padding: 40px 4%;
+  background: #a4d65e;
 }
 
 section .topo-do-site .flex {
@@ -178,7 +179,7 @@ section .topo-do-site .flex {
 }
 
 .topo-do-site h1 {
-  color: #a4d65e;
+  color: #333333;
   font-size: 38px;
   line-height: 40px;
 }
