@@ -326,7 +326,7 @@ section .topo-do-site .flex {
   box-sizing: border-box; 
 }
 .formulario iframe {
-  max-width: 2000px;       /* Limita a largura máxima */
+  max-width: 100%;       /* Limita a largura máxima */
   height: 1700px;           /* Ajusta a altura */
   border: none;          
 }
