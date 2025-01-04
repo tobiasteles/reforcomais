@@ -428,7 +428,7 @@ footer .line-footer p a {
 
   .formulario iframe {
     max-width: 90%;          /* O formulário ocupa 90% da largura */
-    height: 1400px;          /* Ajusta a altura para telas intermediárias */
+    height: 2000px;          /* Ajusta a altura para telas intermediárias */
   }
 
   /* RODAPE */
