@@ -440,3 +440,9 @@ footer .line-footer p a {
     text-align: center;
   }
 }
+@media (min-width: 1600px) {
+  .formulario iframe {
+    max-width: 2000px;       /* Permite que o formulário fique bem grande */
+    height: 1700px;          /* Mantém a altura conforme a necessidade */
+  }
+}
