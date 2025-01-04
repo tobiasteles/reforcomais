@@ -427,7 +427,7 @@ footer .line-footer p a {
   /* FORMULÁRIO */
 
   .formulario iframe {
-    max-width: 90%;          /* O formulário ocupa 90% da largura */
+    max-width: 100%;          /* O formulário ocupa 90% da largura */
     height: 2000px;          /* Ajusta a altura para telas intermediárias */
   }
 
