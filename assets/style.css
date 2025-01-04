@@ -316,16 +316,19 @@ section .topo-do-site .flex {
 }
 
 /* FORMULÁRIO */
-.formulario {
-  padding: 80px 4%;
-
+.formulario .flex {
+  display: flex;             /* Garante o uso de flexbox */
+  align-items: center;       /* Centraliza verticalmente */
+  justify-content: center;   /* Centraliza horizontalmente */
+  text-align: center;        /* Alinha o texto, caso tenha */
+  width: 100%;               /* Ocupa toda a largura do contêiner */
+  padding: 20px;             /* Espaçamento interno */
+  box-sizing: border-box; 
 }
- iframe {
-  width: 100%;
-  max-width: 900px;
-  height: 1500px;
-  border: none;
-  align-items: center;
+.formulario iframe {
+  max-width: 2000px;       /* Limita a largura máxima */
+  height: 1700px;           /* Ajusta a altura */
+  border: none;          
 }
 
 /* ESTILO RODAPE */
@@ -423,9 +426,9 @@ footer .line-footer p a {
 
   /* FORMULÁRIO */
 
-  .formulario textarea {
-    font-size: 20px;
-    height: 175px;
+  .formulario iframe {
+    max-width: 90%;          /* O formulário ocupa 90% da largura */
+    height: 1400px;          /* Ajusta a altura para telas intermediárias */
   }
 
   /* RODAPE */
