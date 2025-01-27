@@ -67,7 +67,8 @@ button:hover {
 
 header {
   padding: 40px 4%;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 1px;
 }
 
 header .interface {
