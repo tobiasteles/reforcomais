@@ -51,6 +51,12 @@ button:hover {
   transform: scale(1.05);
 }
 
+.btn-social {
+  display: flex; /* Alinha os botões em linha */
+  justify-content: center; /* Centraliza o conteúdo */
+  gap: 10px; /* Espaço entre os botões */
+}
+
 .btn-social button {
   width: 60px;
   height: 60px;
@@ -59,9 +65,20 @@ button:hover {
   background-color: #a4d65e;
   font-size: 25px;
   cursor: pointer;
-  margin: 0 5px;
+  margin: 0; /* Remove margens extras */
   transition: 0.2s;
+  display: flex; /* Garante que o ícone fique centralizado */
+  align-items: center;
+  justify-content: center;
 }
+
+.btn-social button i {
+  margin: 0; /* Remove qualquer margem padrão dos ícones */
+  padding: 0; /* Remove qualquer padding */
+  display: block; /* Garante que o ícone seja tratado como bloco */
+  color: #333333; /* Ajuste a cor do ícone se necessário */
+}
+
 
 /* ESTILO DO CABEÇALHO */
 
