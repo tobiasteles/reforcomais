@@ -40,6 +40,11 @@ h2 span {
   color: #a4d65e;
 }
 
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
 .titulo {
   color: #ffea00;
   font-size: 40px;
