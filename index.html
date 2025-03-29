@@ -1,295 +1,139 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta property="og:title" content="Reforço+">
-  <meta property="og:description"
-    content="Oferecemos aulas de reforço personalizadas em matemática, física e português para alunos do ensino fundamental e médio. Aprendizado focado nas suas necessidades com professores qualificados!">
-  <meta property="og:image" content="assets/img/LOGO.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:url" content="https://reforcomais.netlify.app/">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="pt_BR">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Reforço+">
+    <meta property="og:description"
+        content="Oferecemos aulas de reforço personalizadas em matemática, física e português para alunos do ensino fundamental e médio. Aprendizado focado nas suas necessidades com professores qualificados!">
+    <meta property="og:image" content="assets/img/LOGO.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://reforcomais.netlify.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
 
-  <title>Reforço+</title>
-  <link rel="stylesheet" href="assets/style.css" />
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-  <script src="assets/menu.js" defer></script>
+    <title>Reforço+</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.min.css" />
 </head>
-
 <body>
-  <!-- INICIO HEADER -->
-  <header>
-    <!--INICIO INTERFACE-->
-    <div class="interface">
-      <!--INICIO LOGO-->
-      <div class="logo">
-        <a href="#formulario">
-          <img src="assets/img/Cópia de A4D65E.png" alt="Logo" width="65px" />
-        </a>
-      </div>
-      <!--FIM LOGO-->
-      <nav class="menu-desktop">
-        <ul>
-          <li><a href="#topo-do-site">Início</a></li>
-          <li><a href="#especialidades">Especialidades</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#pacotes">Pacotes</a></li>
-        </ul>
-      </nav>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Reforço<span>+</span></a>
+            
+            <button class="mobile-menu" aria-label="Abrir menu">
+                <i class="bi bi-list"></i>
+            </button>
 
-      <div class="btn-contato">
-        <a href="#formulario">
-          <button>Reserve agora!</button>
-        </a>
-      </div>
-      <!-- INICIO ABRIR MENU -->
-      <div class="abrir-menu" id="btn-menu">
-        <i class="bi bi-list"></i>
-      </div>
-      <!-- FIM ABRIR MENU -->
-      <!--INICIO MENU MOBILE -->
-      <div class="menu-mobile" id="menu-mobile">
-        <div class="btn-fechar">
-          <i class="bi bi-x-lg"></i>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#topo-do-site">Início</a></li>
-            <li><a href="#especialidades">Especialidades</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#pacotes">Pacotes</a></li>
-            <li><a href="#formulario">Marque sua aula!</a></li>
-          </ul>
+            <ul class="nav-list">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#subjects">Matérias</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#" class="btn">Começar agora</a></li>
+            </ul>
         </nav>
-      </div>
-      <!-- FIM MENU MOBILE -->
-      <div class="overlay-menu" id="overlay-menu"></div>
-    </div>
-    <!--FIM INTERFACE-->
-  </header>
-  <!-- FIM HEADER -->
-  <!-- INICIO CORPO PRINCIPAL -->
-  <main>
-    <!-- INICIO TOPO DO SITE -->
-    <section class="topo-do-site" id="topo-do-site">
-      <!-- INICIO INTERFACE -->
-      <div class="interface">
-        <div class="flex">
-          <div class="txt-topo-site">
-            <h1>Bem-vindo ao reforço<span>+</span>!</h1>
-            <p>
-              Bem-vindo ao <span>reforço+!</span> Oferecemos aulas de reforço online para
-              estudantes do ensino médio e fundamental 2, com foco em
-              Português, Matemática e Física. Nossos tutores
-              experientes realizam chamadas de vídeo ao vivo com os alunos,
-              permitindo uma interação direta e personalizada, tudo à
-              distância. Você pode fazer perguntas e esclarecer suas dúvidas
-              em tempo real, no conforto da sua casa. Explore nossos pacotes e
-              comece a trilhar o caminho para o sucesso nos seus estudos!
-            </p>
-            <div class="btn-contato">
-              <a href="#formulario">
-                <button>Clique aqui para agendar sua aula!</button>
-              </a>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Aprenda com quem entende do assunto!</h1>
+                    <p>Aulas personalizadas de reforço escolar para alunos do ensino fundamental e médio</p>
+                    <a href="#" class="btn">Agende sua aula experimental</a>
+                </div>
+                <div class="hero-image">
+                    <img src="/assets/img/pexels-fauxels-3184163.jpg" alt="Estudante feliz">
+                </div>
             </div>
-          </div>
-          <div class="img-topo-site">
-            <img src="assets/img/reforço+_page-0001.jpg" alt="" width="400px" />
-          </div>
-        </div>
-      </div>
-      <!-- FIM INTERFACE -->
-    </section>
-    <!-- FIM TOPO DO SITE -->
-    <!-- INICIO ESPECIALIDADES -->
-    <section class="especialidades" id="especialidades">
-      <div class="interface">
-        <h2 class="titulo">Nossas <span>Especialidades.</span></h2>
-      </div>
-      <div class="flex">
-        <div class="especialidades-box">
-          <i class="bi bi-calculator"></i>
-          <h3>Aulas de Matemática</h3>
-          <p>
-            Oferecemos aulas de Matemática adaptadas ao nível de cada aluno,
-            desde fundamentos básicos até tópicos avançados. Nossos tutores
-            utilizam metodologias dinâmicas e interativas para garantir que
-            cada estudante compreenda os conceitos de forma clara. Com
-            exercícios práticos e exemplos do dia a dia, buscamos estimular o
-            raciocínio lógico e a confiança em resolver problemas matemáticos.
-          </p>
-        </div>
-        <div class="especialidades-box">
-          <i class="bi bi-pencil"></i>
-          <h3>Aulas de Ciências (Física)</h3>
-          <p>
-            Nossas aulas de Física são projetadas para tornar esse
-            tema fascinante e acessível. Através de experimentos práticos,
-            simulações e discussões interativas, buscamos despertar a
-            curiosidade científica dos alunos. Cada aula é focada em
-            fortalecer o entendimento dos princípios fundamentais, preparando
-            os estudantes para avaliações e desafios acadêmicos.
-          </p>
-        </div>
-        <div class="especialidades-box">
-          <i class="bi bi-book"></i>
-          <h3>Aulas de Português</h3>
-          <p>
-            As aulas de Português no reforço+ têm como objetivo desenvolver a
-            leitura, a escrita e a compreensão textual dos alunos. Nossos
-            tutores oferecem estratégias para aprimorar as habilidades
-            linguísticas, com foco em gramática, interpretação de textos e
-            produção textual. Com materiais diversificados e exercícios
-            práticos, buscamos ajudar os alunos a se expressarem de maneira
-            clara e eficaz.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- FIM ESPECIALIDADES -->
-    <!--INICIO SOBRE  -->
-    <section class="sobre" id="sobre">
-      <div class="interface">
-        <div class="flex">
-          <div class="img-sobre">
-            <img src="assets/img/pexels-energepic-com-27411-313690.jpg" alt="" width="350px" />
-          </div>
-          <div class="txt-sobre">
-            <h2>Olá,<br />Sou Reforço<span>+</span></h2>
-            <p>
-              No reforço+, acreditamos que cada aluno tem o potencial de
-              brilhar. Somos uma plataforma de aulas de reforço online
-              dedicada a apoiar estudantes do ensino médio e fundamental 2 em
-              suas jornadas acadêmicas. Nossa missão é proporcionar um
-              ambiente de aprendizado dinâmico e interativo, onde o
-              conhecimento se transforma em confiança.
-            </p>
-            <p>
-              Nossos tutores são profissionais experientes e apaixonados pelo
-              ensino, oferecendo aulas personalizadas nas disciplinas de
-              Português, Matemática e Física. Utilizamos metodologias
-              modernas e práticas, que estimulam a curiosidade e o
-              envolvimento dos alunos. Acreditamos que a educação deve ser
-              acessível e divertida, e estamos aqui para tornar isso uma
-              realidade.
-            </p>
-            <div class="btn-social">
-              <a href="https://wa.me/5561991723372?text=Olá,%20gostaria%20de%20agendar%20uma%20aula." target="_blank"><button><i class="bi bi-whatsapp"></i></button>
-              </a>
-              <a href="https://www.instagram.com/reforco_mais_online/"><button><i
-                    class="bi bi-instagram"></i></button></a>
-              <a href="https://www.youtube.com/@Refor%C3%A7o_mais"><button><i class="bi bi-youtube"></i></button></a>
+        </section>
 
+        <section id="features" class="features">
+            <div class="container">
+                <div class="feature-card">
+                    <i class="bi bi-person-gear"></i>
+                    <h3>Aulas Personalizadas</h3>
+                    <p>Plano de estudos adaptado às suas necessidades</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="bi bi-award"></i>
+                    <h3>Professores Qualificados</h3>
+                    <p>Equipe especializada e capacitada</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="bi bi-clock"></i>
+                    <h3>Horários Flexíveis</h3>
+                    <p>Aulas disponíveis 24/7</p>
+                </div>
             </div>
-          </div>
+        </section>
+
+        <section id="subjects" class="subjects">
+            <div class="container">
+                <h2>Nossas Matérias</h2>
+                <div class="subjects-grid">
+                    <div class="subject-card">
+                        <i class="bi bi-calculator"></i>
+                        <h3>Matemática</h3>
+                    </div>
+                    
+                    <div class="subject-card">
+                      <i class="bi bi-gear-wide-connected"></i>
+                        <h3>Física</h3>
+                    </div>
+                    
+                    <div class="subject-card">
+                        <i class="bi bi-book"></i>
+                        <h3>Português</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Pronto para melhorar seu desempenho?</h2>
+                <a href="#" class="btn">Começar agora</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h4>Contato</h4>
+                    <p>Email: tobias.teles@gmail.com</p>
+                    <p>Telefone: (61) 99172-3372</p>
+                </div>
+                
+                <div class="social-links">
+                    <h4>Siga-nos</h4>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 Reforço+. Todos os direitos reservados.</p>
+            </div>
         </div>
-      </div>
-    </section>
-    <!--FIM SOBRE  -->
-    <!-- INICIO FORMULÁRIO -->
+    </footer>
 
-    <!-- INICIO PACOTES -->
-    <a href="#formulario"><section class="pacotes" id="pacotes">
-      <div class="interface">
-        <div class="flex">
-          <div class="pacote-box">
-            <h2>Pacote 1: 3 Aulas</h2>
-            <p>
-              O Pacote de 3 Aulas é perfeito para quem quer começar a aprender uma disciplina. Cada aula de 1h30 cobre
-              os principais conceitos, com exercícios práticos e esclarecimento de dúvidas, em um ambiente
-              acolhedor.<br />
-              Preço: <strong>R$ 350,00</strong>
-            </p>
-          </div>
-          <div class="pacote-box">
-            <h2>Pacote 2: 4 Aulas</h2>
-            <p>
-              O Pacote de 4 Aulas oferece aprendizado mais aprofundado, com aulas de 1h30 para explorar conteúdo e
-              revisar tópicos. Nossos tutores personalizam as aulas para garantir que você se sinta confiante e
-              preparado.
-              <br />
-              Preço: <strong>R$ 440,00 (5% de desconto)</strong>
-            </p>
-          </div>
-          <div class="pacote-box">
-            <h2>Pacote 3: 5 Aulas</h2>
-            <p>
-              O Pacote de 5 Aulas oferece suporte intensivo, com aulas de 1h30 para aprofundar o conteúdo. Com atenção
-              personalizada, nossos tutores ajudarão a melhorar seu desempenho e alcançar seus objetivos. <br />
-              Preço: <strong>R$ 525,00 (10% de desconto)</strong>
-            </p>
-          </div>
-          
-          <div class="pacote-box">
-            <h2>Aulas Avulsas</h2>
-            <p>
-              As Aulas Avulsas são ideais para quem precisa de atenção em um tópico específico ou resolver dúvidas
-              pontuais. Com 1h30 de duração, cada aula é adaptada às suas necessidades para melhorar seu aprendizado.
-              <br />
-              Preço: <strong>R$ 125,00</strong>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section></a>
-    <!-- FIM PACOTES -->
-
-    <!-- INICIO FORMULARIO -->
-    <div class="formulario">
-      <div class="interface">
-        <div class="flex">
-          <div class="formulario" id="formulario">
-
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSe6UCFoo7TNNEFMNcSY-1ad3lDadJtw2XNIA_xaBZMUNrgE0w/viewform?embedded=true"
-              width="640" height="1421" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- FIM FORMULARIO -->
-  </main>
-  <!-- FIM CORPO PRINCIPAL -->
-  <!-- INICIO RODAPÉ -->
-  <footer>
-    <div class="interface">
-      <div class="line-footer">
-        <div class="flex">
-          <div class="logo-footer">
-            <img src="assets/img/LOGO.png" alt="logo" width="75px">
-          </div>
-          <div class="btn-social">
-            <a href="https://wa.me/5561991723372?text=Olá,%20gostaria%20de%20agendar%20uma%20aula." target="_blank"><button><i class="bi bi-whatsapp"></i></button>
-            </a>
-            <a href="https://www.instagram.com/reforco_mais_online/"><button><i
-                  class="bi bi-instagram"></i></button></a>
-            <a href="https://www.youtube.com/@Refor%C3%A7o_mais"><button><i class="bi bi-youtube"></i></button></a>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="line-footer borda">
-      <p><i class="bi bi-envelope-at-fill"></i> <a href="mailto: reforco.mais1@gmail.com">reforco.mais1@gmail.com</a>
-      </p>
-    </div>
-    </div>
-  </footer>
-  <!-- FIM RODAPÉ -->
+    <script src="assets/menu.js" defer></script>
 </body>
-
 </html>

@@ -1,13 +1,18 @@
-let btnMenu = document.getElementById('btn-menu')
-let menu = document.getElementById('menu-mobile')
-let overlay = document.getElementById('overlay-menu')
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const navList = document.querySelector('.nav-list');
 
-btnMenu.addEventListener('click', ()=>{
-    menu.classList.add('abrir-menu')
-})
-menu.addEventListener('click', ()=>{
-    menu.classList.remove('abrir-menu')
-})
-overlay.addEventListener('click', ()=>{
-    menu.classList.remove('abrir-menu')
-})
+    mobileMenu.addEventListener('click', function() {
+        navList.classList.toggle('active');
+        this.querySelector('i').classList.toggle('bi-list');
+        this.querySelector('i').classList.toggle('bi-x');
+    });
+
+    // Fechar menu ao clicar em um link
+    document.querySelectorAll('.nav-list a').forEach(link => {
+        link.addEventListener('click', () => {
+            navList.classList.remove('active');
+            mobileMenu.querySelector('i').classList.replace('bi-x', 'bi-list');
+        });
+    });
+});
